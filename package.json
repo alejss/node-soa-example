@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "ts": "tsc --watch",
+    "dev": "nodemon dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alejss/node-soa-example.git"
