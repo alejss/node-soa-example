@@ -1,0 +1,29 @@
+### test api
+
+GET http://localhost:8080
+
+## Students
+
+### Get Students
+GET http://localhost:8080/students
+
+### Get One Student
+GET http://localhost:8080/students/1
+
+### Update Student
+PATCH  http://localhost:8080/students/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "ale2",
+    "email": "ale2@gmail.com"
+}
+
+### Create Student
+POST http://localhost:8080/students HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "ale",
+    "email": "ale@gmail.com"
+}
